@@ -1,5 +1,7 @@
 extends Position2D
 
+class_name MiniBeast
+
 var mbName : String
 var team : int
 var mobilityStat : int

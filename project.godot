@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Action",
+"language": "GDScript",
+"path": "res://Scripts/Action.gd"
+}, {
+"base": "Position2D",
+"class": "MiniBeast",
+"language": "GDScript",
+"path": "res://Scripts/MiniBeast.gd"
+} ]
+_global_script_class_icons={
+"Action": "",
+"MiniBeast": ""
+}
+
 [application]
 
 config/name="Mini Beasts"
