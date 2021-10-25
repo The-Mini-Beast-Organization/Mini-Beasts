@@ -14,14 +14,26 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Scripts/Action.gd"
 }, {
+"base": "Node2D",
+"class": "Map",
+"language": "GDScript",
+"path": "res://Scripts/Map.gd"
+}, {
 "base": "Position2D",
 "class": "MiniBeast",
 "language": "GDScript",
 "path": "res://Scripts/MiniBeast.gd"
+}, {
+"base": "Position2D",
+"class": "Tile",
+"language": "GDScript",
+"path": "res://Scripts/Tile.gd"
 } ]
 _global_script_class_icons={
 "Action": "",
-"MiniBeast": ""
+"Map": "",
+"MiniBeast": "",
+"Tile": ""
 }
 
 [application]
